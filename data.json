@@ -1,0 +1,213 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/porn4days-downloader",
+  "serply_link": "https://serp.ly/porn4days-downloader",
+  "app_name": "Porn4days Video Downloader",
+  "short_description": "Download & Save Porn4days Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Porn4days Downloader is a browser extension built for the Porn4days platform, designed to help you save video content from slug-based video pages. The extension accounts for the platform's embedded player structure, where video playback may pass through an iframe layer before media becomes available. Whether you are archiving content for offline viewing or building a personal library, this tool provides a focused download solution for Porn4days.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/porn4days-downloader-fullscreen-01-6cc254f19e.webp",
+    "https://apps.serp.co/media/optimized-products/porn4days-downloader-fullscreen-02-95f9a9dcb9.webp",
+    "https://apps.serp.co/media/optimized-products/porn4days-downloader-fullscreen-03-8afdf721df.webp",
+    "https://apps.serp.co/media/optimized-products/porn4days-downloader-fullscreen-04-ad1b87e423.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does the extension work with all Porn4days video pages?",
+      "answer": "It works with video pages that follow the /video/{slug} URL pattern. Other page types like categories or search results are not supported."
+    },
+    {
+      "question": "Why do I need to start playing the video first?",
+      "answer": "Porn4days uses an iframe player that only reveals the media stream after playback begins. Starting the video triggers this handoff so the extension can detect the source."
+    },
+    {
+      "question": "Can I download videos in resolutions other than what is offered?",
+      "answer": "The extension provides the quality options that the platform makes available through its stream delivery. You can choose from whatever options are detected."
+    },
+    {
+      "question": "Is the extension free to use?",
+      "answer": "You get three free downloads to test the workflow. Unlimited downloads require a paid license, which you can purchase from the product page."
+    },
+    {
+      "question": "Will this extension work on other websites?",
+      "answer": "No. The extension is built specifically for Porn4days and its video page structure. It will not function on other platforms."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Keeping a backup copy of content you have permission to save"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Built specifically for Porn4days and its extended-session brand identity",
+    "Focused on the clean /video/{slug} page pattern",
+    "Accounts for iframe relay before final media exposure",
+    "Supports M3U8 and MP4 stream formats",
+    "Outputs standard MP4 files for easy playback",
+    "Dedicated support for Porn4days video pages with slug-based URLs",
+    "Detection of media streams delivered through iframe players",
+    "Support for both M3U8 and MP4 source formats",
+    "Output files saved as standard MP4 for broad compatibility",
+    "Simple popup interface for initiating downloads",
+    "Works with the current Porn4days video page structure",
+    "Clean integration that does not clutter the browsing experience",
+    "Regular updates to maintain compatibility with the platform"
+  ],
+  "content": {
+    "why": [
+      "Porn4days presents a unique challenge for anyone trying to save video content. The platform uses a clean slug-based URL structure for its video pages, but playback often passes through an embedded iframe layer before the actual media stream becomes accessible. This indirect delivery path can make it difficult to locate and capture the underlying video source using standard browser tools or generic downloaders.",
+      "The extension solves this by working with the platform's embedded player architecture. It follows the iframe handoff on /video/{slug} pages and looks for M3U8 or MP4 streams that may not be immediately visible on the page. Instead of requiring you to dig through page source code or network logs, the extension provides a straightforward popup interface that handles the detection process. This means you can focus on finding and saving the content you want without worrying about technical playback mechanics."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Porn4days and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Navigate to Porn4days and find a video you want to download. Make sure the URL follows the /video/{slug} pattern, such as ``.",
+      "Click on the video to open its dedicated page. Wait for the page to fully load and for the embedded player area to appear.",
+      "Start playing the video. This step is important because it triggers the iframe handoff that reveals the underlying media stream.",
+      "Locate the Porn4days Downloader icon in your browser toolbar and click it to open the extension popup.",
+      "The popup will scan the page and detect available media streams. Wait a moment for the detection process to complete.",
+      "Review the detected stream options. You may see one or more quality levels depending on what the platform provides.",
+      "Select your preferred quality and click the download button. The extension will begin capturing the stream.",
+      "Once the download completes, you will be prompted to save the MP4 file to your preferred location on your device."
+    ],
+    "supported_formats": [
+      "Input: M3U8 and MP4 streams delivered through iframe players on Porn4days video pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Regular Porn4days viewers who want to build a personal offline collection",
+      "Users who prefer watching content without relying on an internet connection",
+      "Anyone who has struggled to find the actual video source behind Porn4days iframe players",
+      "People who want a focused tool rather than a generic downloader that may not handle embedded playback"
+    ],
+    "use_cases": [
+      "Saving a specific Porn4days video for offline viewing during travel",
+      "Archiving favorite clips before they are removed from the platform",
+      "Building a personal media library organized by your own preferences",
+      "Avoiding repeated streaming of the same content to save bandwidth",
+      "Keeping a backup copy of content you have permission to save"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any media on the video page Make sure the video is playing before opening the popup. The iframe handoff that reveals the stream typically happens after playback starts.",
+      "The download starts but produces a broken file Try a different quality option if available. Some streams may have intermittent issues depending on the platform's current delivery method.",
+      "The popup shows an error message Refresh the video page and try again. If the problem persists, check that you are on a valid Porn4days video page with a /video/{slug} URL.",
+      "The extension icon is grayed out on Porn4days The extension may not be active on that specific page. Make sure you are on a supported video page and not on a category, search, or user profile page.",
+      "Downloads are slow or stall partway through Your internet connection speed affects download performance. Try pausing other bandwidth-intensive activities while downloading."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Porn4days page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "The extension works with Porn4days domains including porn4days.pw and www.porn4days.pw",
+      "Video playback must be started before the extension can detect media streams"
+    ],
+    "about": [
+      "Porn4days is a video platform built around extended viewing sessions, using a clean slug-based URL structure for its content pages. The platform delivers video playback through embedded players that may hand off to iframe layers, making direct downloads more complex than on sites with exposed video sources."
+    ]
+  },
+  "serpx_link": "https://serpx.link/porn4days-downloader",
+  "github_topics": [
+    "porn4days-download",
+    "porn4days-downloader",
+    "porn4days-video-downloader",
+    "porn4days-video-downloader-online",
+    "porn4days-video-downloader-mac",
+    "porn4days-video-downloader-window",
+    "porn4days-video-downloader-free",
+    "porn4days-video-downloader-extension",
+    "porn4days-video-downloader-app",
+    "porn4days-video-downloader-chrome",
+    "porn4days-video-downloader-from-url",
+    "how-to-download-porn4days-videos",
+    "how-to-download-porn4days-videos-mac",
+    "how-to-download-porn4days-videos-windows",
+    "how-to-download-porn4days-videos-online",
+    "how-to-download-porn4days-videos-free",
+    "how-to-download-from-porn4days",
+    "how-to-download-videos-from-porn4days",
+    "download-porn4days-videos",
+    "porn4days-video-tutorial",
+    "save-porn4days-videos",
+    "porn4days-video-content-saver",
+    "how-to-download-porn4days-videos-for-free"
+  ],
+  "hashtags": [
+    "#Porn4daysDownload",
+    "#Porn4daysDownloader",
+    "#Porn4daysVideoDownloader",
+    "#Porn4daysVideoDownloaderOnline",
+    "#Porn4daysVideoDownloaderMac",
+    "#Porn4daysVideoDownloaderWindow",
+    "#Porn4daysVideoDownloaderFree",
+    "#Porn4daysVideoDownloaderExtension",
+    "#Porn4daysVideoDownloaderApp",
+    "#Porn4daysVideoDownloaderChrome",
+    "#Porn4daysVideoDownloaderFromURL",
+    "#HowToDownloadPorn4daysVideos",
+    "#HowToDownloadPorn4daysVideosMac",
+    "#HowToDownloadPorn4daysVideosWindows",
+    "#HowToDownloadPorn4daysVideosOnline",
+    "#HowToDownloadPorn4daysVideosFree",
+    "#HowToDownloadFromPorn4days",
+    "#HowToDownloadVideosFromPorn4days",
+    "#DownloadPorn4daysVideos",
+    "#Porn4daysVideoTutorial",
+    "#SavePorn4daysVideos",
+    "#Porn4daysVideoContentSaver",
+    "#HowToDownloadPorn4daysVideosForFree"
+  ],
+  "youtube_tags": [
+    "Porn4days Download",
+    "Porn4days Downloader",
+    "Porn4days Video Downloader",
+    "Porn4days Video Downloader Online",
+    "Porn4days Video Downloader Mac",
+    "Porn4days Video Downloader Window",
+    "Porn4days Video Downloader Free",
+    "Porn4days Video Downloader Extension",
+    "Porn4days Video Downloader App",
+    "Porn4days Video Downloader Chrome",
+    "Porn4days Video Downloader From URL",
+    "How To Download Porn4days Videos",
+    "How To Download Porn4days Videos Mac",
+    "How To Download Porn4days Videos Windows",
+    "How To Download Porn4days Videos Online",
+    "How To Download Porn4days Videos Free",
+    "How To Download From Porn4days",
+    "How To Download Videos From Porn4days",
+    "Download Porn4days Videos",
+    "Porn4days Video Tutorial",
+    "Save Porn4days Videos",
+    "Porn4days Video Content Saver",
+    "How To Download Porn4days Videos For Free"
+  ]
+}
